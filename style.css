@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(246, 248, 246);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+}
+#contact{
+    width: 100%;
+    height: 100%;
+}
+.section-header{
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    color: #fffffc;
+    letter-spacing: 8px;
+}
+.contact-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+}
+.form-horizontal{
+    max-width: 400px;
+    font-weight: 400px;
+}
+.form-control textarea{
+    max-width: 400px;
+    font-weight: 400
+}
+#name{
+    margin: 5px;
+ 
+}
+#email{
+    margin: 5px;
+}
+#submit{
+    margin: 5px;
+}
+#submit{
+    margin-left: 50px;
+}
+iframe{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
